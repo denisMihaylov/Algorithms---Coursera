@@ -1,3 +1,4 @@
+package programming.collinear;
 
 /******************************************************************************
  *  Compilation:  javac Point.java
