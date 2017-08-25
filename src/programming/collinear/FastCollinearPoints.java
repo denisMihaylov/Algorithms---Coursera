@@ -24,7 +24,7 @@ public class FastCollinearPoints {
         Point[] tempPoints = Arrays.copyOf(points, points.length);
         Arrays.sort(tempPoints);
         for (int i = 0; i < tempPoints.length - 1; i++) {
-            if (points[i].compareTo(points[i + 1]) == 0) {
+            if (tempPoints[i].compareTo(tempPoints[i + 1]) == 0) {
                 throw new IllegalArgumentException();
             }
         }
